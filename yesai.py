@@ -8,11 +8,11 @@ def strip_metadata(img_path):
     # Opening the image
     img = Image.open(img_path)
     
-    #Resizing image down
+    # Resizing image down
     width, height = img.size
     img = img.resize((int(width * 0.5), int(height * 0.5)))
     
-    #Resizing back up
+    # Resizing back up
     width, height = img.size
     img = img.resize((int(width * 2.0), int(height * 2.0)))
 
