@@ -7,6 +7,14 @@ import msvcrt
 def strip_metadata(img_path):
     # Opening the image
     img = Image.open(img_path)
+    
+    #Resizing image down
+    width, height = img.size
+    img = img.resize((int(width * 0.5), int(height * 0.5)))
+    
+    #Resizing back up
+    width, height = img.size
+    img = img.resize((int(width * 2.0), int(height * 2.0)))
 
     # Create an empty dictionary for the new image's metadata
     data = {}
@@ -23,7 +31,7 @@ def strip_metadata(img_path):
         img.save(new_name, "PNG", pnginfo=data)
     else:
         raise ValueError(f"Unsupported image type: {img_type}")
-
+    
     print(f"Metadata removed from {img_path} and saved as {new_name}")
 
 # Look in the same directory as our .py file
