@@ -17,9 +17,9 @@ See for yourself!
 
 ![YesAI](https://user-images.githubusercontent.com/122483158/211902821-7b792e18-35c4-44df-aebe-de05209de0c4.png)
 
-This will remove all traces of prompts, samplers, seeds and more.
+This will remove all traces of prompts, samplers, seeds and more. It also reduces the image resolution, and bumps it back up to bypass the invisible watermark.
 
-# Sidenote
+# Side-note
 
 Again, this project is not meant to harm anyone. This can be used for the sole purpose of cleaning up metadata related to AI generated images for whatever reason. You can build on this, play with it, experiment with it. Use it at your own risk and I take NO responsibility for ill use of the code.
 
