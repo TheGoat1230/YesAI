@@ -7,7 +7,7 @@ YesAI is written in Python using the PIL (Pillow) library. It takes images (.png
 It's pretty straight forward.
 
 1) Install Python 3
-2) Install the PIL (Pillow) library
+2) Install the PIL (Pillow) library (https://pypi.org/project/Pillow/)
 3) Place your images in the same directory as the .py file
 4) Double click the .py file and your images will be saved as "filename_yesai.extension"
 
