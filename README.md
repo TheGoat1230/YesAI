@@ -1,6 +1,6 @@
 # YesAI - The Friendly Metadata/Invisible Watermark Remover
 
-YesAI is written in Python using the PIL (Pillow) library. It takes images (.png/.jpg/.jpeg) and removes the metadata, clearing out any AI related information from the header. This was written with the sole intention of testing and is not meant to harm artists. If an artist does not want their work used, respect it!
+YesAI is written in Python using the PIL (Pillow) library. It takes images (.png/.jpg/.jpeg) and removes the metadata, clearing out any AI related information from the header, it then resizes the image and gives you an output of the same resolution to remove any invisible watermarks. This was written with the sole intention of testing and is not meant to harm artists. If an artist does not want their work used, respect it!
 
 # How do I use it?
 
